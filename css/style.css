@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 960px;
+  color: #999999;
+  font-size: 20px;
+}
+
+.axis text {
+/*  font: 10px sans-serif;*/
+    fill: #999999;
+   
+}
+.y .tick text {
+    transform :translate(-20px,-35px) rotate(-90deg);
+    font-weight: bold;
+}
+.x .tick text {
+    transform :translate(-20px,20px) rotate(-90deg);
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.g_rotate{
+/*    transform: rotate(90deg);*/
+
+
+}
+.bar {
+/*  fill: rgb(40, 253, 31);*/
+  fill-opacity: .5;
+
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
